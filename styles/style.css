@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logoImageHome {
+  width: 200px;
+  position: absolute;
+  right: 50px;
+  top: 0px;
+}
+
+.headerProduction, .headerCompanyBg, .headerCompanyMission, .headerMembers, .headerMembersOrder {
+  background-color: rgb(255, 158, 0);
+}
+
+.currentPage {
+  color: black;
+}
+
+.navigationHome {
+  margin-left: 18px;
+  margin-top: 70px;
+  width: 240px;
+}
+
+.navigationProduction {
+  height: 900px;
+}
+
+.navigationCompanyBg {
+  height: 600px;
+}
+
+.navigationCompanyMission {
+  height: 550px;
+}
+
+.navigationMembers {
+  height: 550px;
+}
+
+.navigationProduction, .navigationCompanyBg, .navigationCompanyMission, .navigationMembers {
+  float: left;
+  width: 25%;
+  background-color: rgb(143, 0, 0);
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 158, 0);
+}
+
+nav li {
+  font-size: 90%;
+  font-family: Futura, sans-serif;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 25px;
+}
+
+.heroBackgroundHome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 709px;
+  background-image: url("../images/homePageBackground.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.aboutUsHome {
+  position: absolute;
+  width: 100%;
+  top: 709px;
+  text-align: center;
+}
+
+.aboutUsImageHome {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(255, 158, 0);
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top:50px;
+}
+
+.slideshowProduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  border-style: solid;;
+  border-width: 5px;
+  border-color: rgb(255, 158, 0);
+  margin: 5px;
+  width: 150px;
+  height:150px;
+}
+
+.enlargement {
+  border-style: solid;;
+  border-width: 5px;
+  border-color: rgb(255, 158, 0);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.assembledImage img {
+  display: block;
+  width: 100%;
+}
+
+.assembledImage table td {
+  width: 150px;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 0;
+}
+
+.mainTextSectionCompanyBg, .mainTextSectionCompanyMission, .mainTextSectionMembers, .headingAndImageMembersOrder, .mainTextSectionProduction {
+  text-align: center;
+}
+
+.orderFormHeading {
+  text-align: center;
+  margin: 20px;
+}
+
+.mainHeadingMembers, .subHeadingMembers, .orderHeading, .mainHeadingProduction {
+  margin: 20px;
+}
+
+.mainHeadingHome, .mainHeadingProduction, .mainHeadingCompanyBg, .mainHeadingCompanyMission, .mainHeadingMembers, .subHeadingMembers, .orderHeading, .orderFormHeading {
+  font-family: Futura, sans-serif;
+}
+
+.aboutUsMainTextHome {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.mainTextProduction {
+  padding-left: 290px;
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.mainTextCompanyBg {
+  margin-top: 10px;
+}
+
+.mainImageCompanyBg, .mainImageCompanyMission {
+  margin: 30px;
+}
+
+.productImageMembers {
+  width: 70%;
+}
+
+.footerProduction, .footerCompanyBg, .footerCompanyMission, .footerMembers {
+  clear: both;
+}
+
+.footerMembersOrder {
+  clear: both;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(255, 158, 0);
+  width: 100%;
+}
+
+.footerMembersOrder a {
+  text-decoration: none;
+  color: black;
+}
+
+.policyLinks {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(255, 158, 0);
+}
+
+.policyLinksHome {
+  position: absolute;
+  top: 1200px;
+}
+
+.policyLinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.copyrightInfo {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 203, 0);
+}
+
+.copyrightInfoHome {
+  position: absolute;
+  top: 1258px;
+}

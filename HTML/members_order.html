@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Members Order</title>
+  <link href="../styles/style.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../scripts/formScript.js"></script>
+  <script type="text/javascript" src="../scripts/queryStringScript.js"></script>
+</head>
+<body onload="loadFromQueryString()">
+  <header class="headerMembersOrder">
+    <img src="../images/logo.png" />
+  </header>
+  <main>
+    <div class="headingAndImageMembersOrder">
+    <h1 class="orderHeading">Main Heading</h1>
+    <section class="assembledImage">
+      <table class="imageTable">
+      </table>
+    </section>
+    </div>
+    <section class="orderForm">
+      <h2 class="orderFormHeading">Ordering:</h2>
+      <form action="#" method="post" onsubmit="return formSubmission();">
+        <table class="orderTable">
+        <tr>
+        <td><label for="productDescription">Product Description:</label></td>
+        <td colspan="2"><textarea id="productDescription" rows="4" cols="30" required>
+          productDescription
+        </textarea></td>
+        </tr>
+        <tr>
+        <td><label for="quantity">Quantity:</label></td>
+        <td colspan="2"><input id="quantity" type="number" name="quantity" value="1" min="1" required /></td>
+        </tr>
+        <tr>
+        <td><label for="productPrice">Price:</label></td>
+        <td colspan="2"><input id="productPrice" type="number" name="productPrice" value="000" min="000" required/></td>
+        </tr>
+        <tr>
+        <td><label for="totalPrice">Total Price:</label></td>
+        <td colspan="2"><output id="totalPrice" name="totalPrice" for="quantity price">0</output></td>
+        </tr>
+        <tr>
+        <td><button type="button" name="clear" onclick="clearValues()">Clear</button></td>
+        <td><button type="button" name="calculateTotal" onclick="calculateTotalPrice()">Calculate Total</button></td>
+        <td><button type="submit" name="submit">Submit</button></td>
+        </tr>
+        </table>
+      </form>
+    </section>
+  </main>
+  <footer class="footerMembersOrder">
+    <script type="text/javascript">
+      function closeWindow() {
+        window.close();
+      }
+    </script>
+    <a href="#" onclick="closeWindow()">Close order page</a>
+  </footer>
+</body>
+</html>
